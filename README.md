@@ -1,18 +1,19 @@
-#Squarespace_Commerce Python Module
+# Squarespace_Commerce Python Module
 
 The Squarespace_Commerce module attempts to provide easy access to [Squarespace's Commerce API](http://developers.squarespace.com/commerce-api
 ).
 
 ## Usage
-Instantiate the squarespace class to get access to your store:
-Version defaults to 1.5
+````
+#Instantiate the squarespace class to get access to your store:
+#Version defaults to 1.5
 order = Squarespace('APIKEY')
 
 #Optional Parameters include:
 order = Squarespace('APIKEY','APIVERSION','APIBASEURL')
-
+````
 ## Orders API
-
+````
 #Get the first page of orders, returns 50:
 order.get_orders()
 
@@ -28,7 +29,7 @@ order.fulfill_order('order_id')
 #Optional Parameters include:
 order.fulfill_order('order_id', send_notification={True | FALSE}, ship_date={ISO 8601 Date}, tracking_number='',
                       carrier_name='', service='', tracking_url='{valid_url}'):
-
+````
 ## Transactions API
 #WIP
 
