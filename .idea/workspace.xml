@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3734f9be-1d1a-4256-84ef-e7fd0f802f9b" name="Default Changelist" comment="" />
+    <list default="true" id="3734f9be-1d1a-4256-84ef-e7fd0f802f9b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/squarespace_commerce/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/squarespace_commerce/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/squarespace_commerce/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/squarespace_commerce/app.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,6 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ProjectId" id="1bv9Id7qkylFeuISgepSlyA5wXI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
