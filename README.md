@@ -4,16 +4,22 @@ The Squarespace_Commerce module attempts to provide easy access to [Squarespace'
 ).
 
 ## Usage
+````python
+#Import the module
+from squarespace_commerce import Squarespace
 ````
-#Instantiate the squarespace class to get access to your store:
-#Version defaults to 1.5
+
+
+````python
+#Create a squarespace class.
 order = Squarespace('APIKEY')
 
 #Optional Parameters include:
+#APIVersion defaults to 1.0
 order = Squarespace('APIKEY','APIVERSION','APIBASEURL')
 ````
 ## Orders API
-````
+````python
 #Get the first page of orders, returns 50:
 order.get_orders()
 
