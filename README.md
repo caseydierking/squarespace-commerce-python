@@ -11,11 +11,11 @@ from squarespace_commerce import Squarespace
 
 
 ````python
-#Instantiate the squarespace class to get access to your store:
-#Version defaults to 1.5
+#Create a squarespace class.
 order = Squarespace('APIKEY')
 
 #Optional Parameters include:
+#APIVersion defaults to 1.0
 order = Squarespace('APIKEY','APIVERSION','APIBASEURL')
 ````
 ## Orders API
