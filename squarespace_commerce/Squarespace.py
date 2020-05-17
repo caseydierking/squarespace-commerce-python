@@ -111,8 +111,4 @@ class Squarespace(object):
             raise SystemExit(e)
 
 
-def start():
-    print("start")
-
-
 

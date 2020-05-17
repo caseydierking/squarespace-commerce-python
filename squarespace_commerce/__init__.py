@@ -1,2 +1,2 @@
-from .app import start
-__version__ = '0.1.0'
+from .Squarespace import Squarespace
+__version__ = '0.1.9'

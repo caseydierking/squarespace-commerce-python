@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "squarespace_commerce"
-version = "0.1.1"
+version = "0.1.9"
 description = "Pythonic access to the Squarespace Commerce API"
 authors = ["Casey Dierking <casey@dierking.dev>"]
 license = "MIT"
@@ -20,9 +20,10 @@ requests = "^2.23.0"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 
-[tool.poetry.scripts]
-my-script = "squarespace_commerce.app:start"
-#[build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
+#[tool.poetry.scripts]
+#ss = "squarespace_commerce.Squarespace:"
+
+[build-system]
+-requires = ["poetry-core>=1.0.0a5"]
+-build-backend = "poetry.core.masonry.api"
 
