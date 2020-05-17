@@ -5,6 +5,12 @@ The Squarespace_Commerce module attempts to provide easy access to [Squarespace'
 
 ## Usage
 ````
+#Import the module
+from squarespace_commerce import Squarespace
+````
+
+
+````
 #Instantiate the squarespace class to get access to your store:
 #Version defaults to 1.5
 order = Squarespace('APIKEY')
